@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/dashboard/users/page.jsx", "app/dashboard/products/page.jsx", "app/dashboard/_component/DeleteUserBtn.jsx", "app/dashboard/users/[id]/page.tsx", "app/auth.js", "app/ui/login/loginForm/LoginForm.jsx", "app/login/page.jsx", "app/lib/database/actions/authentication.js", "app/ui/dashboard/sidebar/sidebar.jsx"],
   "exclude": ["node_modules"]
 }
